@@ -1,0 +1,62 @@
+/* h2 {
+    color: aqua;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-family: 'Syne Mono', monospace;
+}
+p {
+    font-family: monospace;
+} */
+
+/*
+    class -> .text-red {}
+    id    -> #id-bilgisi {} 
+*/
+
+li:first-child {
+    color:green;
+}
+
+li:last-child {
+    color:red;
+}
+
+li:nth-child(2) {
+    color:aqua;
+}
+
+li:nth-child(odd) {
+    background-color: blue;
+}
+
+li:nth-child(even) {
+    background-color:black;
+}
+
+li:nth-child(2n+1) {
+    /* işlemler */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #aa3232;
+}
+
+#first-article {
+    font-size: 40px;
+}
+
+.text-red {
+    color:red;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
